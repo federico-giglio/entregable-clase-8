@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Carga tu producto</h1>
+    <form action="/api/productos" method="post">
+        <input id="title" type="text" name="title" placeholder="Titulo"/>
+        <input id="price" type="text" name="price" placeholder="Precio" />
+        <input id="thumbnail" type="link" name="thumbnail" placeholder="Thumbnail link" />
+        <button type="submit" value="Guardar nuevo producto">Enviar Datos</button>
+    </form>
+</body>
+</html>
